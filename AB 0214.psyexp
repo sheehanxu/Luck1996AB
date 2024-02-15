@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="AB" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="ins">
+      <RoutineSettingsComponent name="ins" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="ins" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="指导语&amp;#10;&amp;#10;如果看到奇数，请按键盘上的F键。&amp;#10;如果看到偶数，请按键盘上的J键。&amp;#10;请您集中注意力，反应要尽可能准确且迅速。准备好后，我们将开始测试。&amp;#10;&amp;#10;祝您好运！&amp;#10;&amp;#10;Instructions&amp;#10;&amp;#10;If you see an odd number, please press the F key on your keyboard.&amp;#10;If you see an even number, please press the J key on your keyboard.&amp;#10;Please focus your attention and try to respond as accurately and swiftly as possible. Once you are ready, we will begin the test.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="import csv&amp;#10;import random&amp;#10;&amp;#10;def read_and_shuffle_csv(input_file, output_file):&amp;#10;    # 确保以正确的编码格式读取CSV文件Ensure the CSV file is read with the correct encoding format.&amp;#10;    with open(input_file, mode='r', encoding='utf-8') as file:&amp;#10;        reader = csv.reader(file)&amp;#10;        next(reader)  # 跳过第一行 Skip the first line.&amp;#10;        # 将所有行的内容合并为一个字符串，同时去除逗号 Convert the text into a list of characters, and shuffle the order randomly.&amp;#10;        text = ''.join([''.join(row[:2]).replace(',', '') for row in reader])&amp;#10;&amp;#10;    # 将文本转换为字符列表，并随机打乱顺序 Convert the text into a list of characters, and shuffle the order randomly.&amp;#10;    characters = list(text)&amp;#10;    random.shuffle(characters)&amp;#10;&amp;#10;    # 将字符分组，每组七个 Group the characters, seven per group.&amp;#10;    groups = [characters[i:i + 2] for i in range(0, len(characters), 2)]&amp;#10;&amp;#10;    # 确保在写入文件时也使用UTF-8编码Ensure that UTF-8 encoding is also used when writing to the file.&amp;#10;    with open(output_file, mode='w', newline='', encoding='utf-8') as file:&amp;#10;        writer = csv.writer(file)&amp;#10;        writer.writerow(['dislist'])  # 写入表头 Write the header.&amp;#10;        for group in groups:&amp;#10;            writer.writerow([''.join(group)])  # 写入每一组Write each group.&amp;#10;&amp;#10;    return output_file&amp;#10;&amp;#10;# 注意替换这里的路径为实际路径Note to replace the paths here with actual paths.&amp;#10;input_csv = 'wordlist.csv'  # 替换为源CSV文件的路径Replace with the path to the source CSV file.&amp;#10;output_csv = 'distractorlist.csv'  # 替换为输出CSV文件的路径 Replace with the path to the output CSV file.&amp;#10;&amp;#10;# 调用函数进行处理Call the function for processing.&amp;#10;shuffled_csv = read_and_shuffle_csv(input_csv, output_csv)&amp;#10;print(f&quot;Shuffled CSV saved to: {shuffled_csv}&quot;)&amp;#10;def shuffle_columns(rows, column_indices):&amp;#10;    # Extract the specific columns to shuffle&amp;#10;    columns_to_shuffle = [[row[index] for row in rows] for index in column_indices]&amp;#10;    &amp;#10;    # Shuffle the extracted columns independently&amp;#10;    for column in columns_to_shuffle:&amp;#10;        random.shuffle(column)&amp;#10;    &amp;#10;    # Reinsert the shuffled columns back into the rows&amp;#10;    for i, row in enumerate(rows):&amp;#10;        for col_index, column in zip(column_indices, columns_to_shuffle):&amp;#10;            row[col_index] = column[i]&amp;#10;&amp;#10;def read_and_shuffle_csv(input_file, output_file):&amp;#10;    with open(input_file, mode='r', encoding='utf-8') as file:&amp;#10;        reader = csv.reader(file)&amp;#10;        headers = next(reader)  # Read the header row&amp;#10;        rows = list(reader)     # Read the rest of the rows&amp;#10;&amp;#10;    # Shuffle the fourth and fifth columns (indices 3 and 4)&amp;#10;    shuffle_columns(rows, [3, 4])&amp;#10;&amp;#10;    # Shuffle the last three columns (indices 5, 6, and 7)&amp;#10;    shuffle_columns(rows, [5, 6, 7])&amp;#10;&amp;#10;    # Write the shuffled rows back to a new CSV file&amp;#10;    with open(output_file, mode='w', newline='', encoding='utf-8') as file:&amp;#10;        writer = csv.writer(file)&amp;#10;        writer.writerow(headers)  # Write the header row&amp;#10;        writer.writerows(rows)    # Write the shuffled rows&amp;#10;&amp;#10;    return output_file&amp;#10;&amp;#10;# 注意替换这里的路径为实际路径&amp;#10;input_csv = 'wordlist.csv'  # 替换为源CSV文件的路径&amp;#10;output_csv = 'wordlist1.csv'  # 替换为输出CSV文件的路径&amp;#10;&amp;#10;# 调用函数进行处理&amp;#10;shuffled_csv = read_and_shuffle_csv(input_csv, output_csv)&amp;#10;print(f&quot;Shuffled CSV saved to: {shuffled_csv}&quot;)" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="cue">
+      <RoutineSettingsComponent name="cue" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="cue" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="cuesti" plugin="None">
+        <Param val="-1.0000, -1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="cuesti" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$probe" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="cueblank" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="cueblank" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="dis1">
+      <RoutineSettingsComponent name="dis1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="dis1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="-1.0000, -1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.083" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$dislist" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="probe">
+      <RoutineSettingsComponent name="probe" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="probe" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_4" plugin="None">
+        <Param val="1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.083" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.083" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$sectag" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_FLK1" plugin="None">
+        <Param val="-1.0000, -1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_FLK1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.083" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="××" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_FLK2" plugin="None">
+        <Param val="-1.0000, -1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_FLK2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.166" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.083" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="××" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="firsTar">
+      <RoutineSettingsComponent name="firsTar" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="firsTar" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_5" plugin="None">
+        <Param val="-1.0000, -1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.083" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$bignum" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="AskRelated">
+      <RoutineSettingsComponent name="AskRelated" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="AskRelated" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_11" plugin="None">
+        <Param val="-1.0000, -1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_11" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="?&amp;#10;&amp;#10;Related-F    Unrelated-J" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_10" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_10" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'f','j'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$relatedu" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="AskColor">
+      <RoutineSettingsComponent name="AskColor" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="AskColor" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_6" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_6" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_7" plugin="None">
+        <Param val="-1.0000, -1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_7" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="?&amp;#10;&amp;#10;Odd-F    Even-J" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_8" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_8" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'f','j'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$oddeven" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="ins"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_4">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('probe', '手部'), ('sectag', '脚部'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '商店'), ('sectag', '店铺'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '窗帘'), ('sectag', '帘幔'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '猫咪'), ('sectag', '小猫'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '思考'), ('sectag', '沉思'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '背包'), ('sectag', '手袋'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '稻草'), ('sectag', '草草'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '杂草'), ('sectag', '草根'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '承诺'), ('sectag', '诺言'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '利润'), ('sectag', '亏损'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '脏污'), ('sectag', '洁净'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '葡萄'), ('sectag', '提子'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '通行'), ('sectag', '过路'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '成熟'), ('sectag', '老练'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '考试'), ('sectag', '测验'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '咳嗽'), ('sectag', '喷嚏'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '善良'), ('sectag', '慈善'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '篮子'), ('sectag', '籃筐'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '房间'), ('sectag', '屋室'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '推动'), ('sectag', '拉扯'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '地板'), ('sectag', '墙壁'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '愤怒'), ('sectag', '怒火'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '盐巴'), ('sectag', '胡椒'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '按压'), ('sectag', '挤压'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '敌人'), ('sectag', '友人'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '损害'), ('sectag', '伤害'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '刺伤'), ('sectag', '割伤'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '杯子'), ('sectag', '盏子'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '婴儿'), ('sectag', '孩童'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '邋遢'), ('sectag', '整洁'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '啤酒'), ('sectag', '酒水'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '巨大'), ('sectag', '庞大'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '船只'), ('sectag', '艘船'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '动物'), ('sectag', '动物园'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '时间'), ('sectag', '时钟'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '斧头'), ('sectag', '斧子'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '进食'), ('sectag', '食用'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '讲座'), ('sectag', '演讲'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '马车'), ('sectag', '车马'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '国王'), ('sectag', '君主'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '果冻'), ('sectag', '果酱'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '椅子'), ('sectag', '凳子'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '虚弱'), ('sectag', '衰弱'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '沙拉'), ('sectag', '凉菜'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '女人'), ('sectag', '女士'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '嘴唇'), ('sectag', '唇瓣'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '沙子'), ('sectag', '细沙'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '学校'), ('sectag', '学院'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '归我'), ('sectag', '归你'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '小麦'), ('sectag', '麦子'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '宝石'), ('sectag', '珠宝'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '口渴'), ('sectag', '清水'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '拳头'), ('sectag', '拳击'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '青柠'), ('sectag', '柠檬'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '剃刀'), ('sectag', '刮刀'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '地球'), ('sectag', '星球'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '坐标'), ('sectag', '地图'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '赌博'), ('sectag', '赌注'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '床铺'), ('sectag', '卧床'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '九个'), ('sectag', '九位'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '盘子'), ('sectag', '碟子'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '汽车'), ('sectag', '轿车'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '烟草'), ('sectag', '烟丝'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '蓝天'), ('sectag', '青空'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '杀害'), ('sectag', '杀戮'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '黄油'), ('sectag', '奶油'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '午餐'), ('sectag', '午饭'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '黄铜'), ('sectag', '黄金'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '我方'), ('sectag', '你方'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '瓦片'), ('sectag', '屋顶'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '长凳'), ('sectag', '沙发'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '姓名'), ('sectag', '地址'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '高处'), ('sectag', '高点'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '慢跑'), ('sectag', '快跑'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '愿望'), ('sectag', '心愿'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '棋盘'), ('sectag', '棋局'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '清朗'), ('sectag', '云雾'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '温暖'), ('sectag', '暖和'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '雨夹'), ('sectag', '冰雹'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '四月'), ('sectag', '五月'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '湿润'), ('sectag', '潮湿'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '水果'), ('sectag', '苹果'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '猪肉'), ('sectag', '牛肉'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '爱恋'), ('sectag', '憎恨'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '分钟'), ('sectag', '小时'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '生病'), ('sectag', '患病'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '江河'), ('sectag', '河流'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '祈祷'), ('sectag', '祷告'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '黑色'), ('sectag', '白色'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '湖泊'), ('sectag', '湖水'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '胶水'), ('sectag', '黏糊'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '眼睛'), ('sectag', '鼻子'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '药片'), ('sectag', '药丸'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '公开'), ('sectag', '公然'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '丝带'), ('sectag', '带子'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '公鸡'), ('sectag', '母鸡'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '年轻'), ('sectag', '老迈'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '良好'), ('sectag', '优良'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '英寸'), ('sectag', '英尺'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '泥土'), ('sectag', '泥地'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '接收'), ('sectag', '收取'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '压力'), ('sectag', '压迫'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '发出'), ('sectag', '发射'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '钢铁'), ('sectag', '钢材'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '开始'), ('sectag', '停止'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '更近'), ('sectag', '近些'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '狗狗'), ('sectag', '小狗'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '手臂'), ('sectag', '臂膀'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '咖啡'), ('sectag', '茶叶'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '水平'), ('sectag', '平面'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '农场'), ('sectag', '农庄'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '长久'), ('sectag', '永久'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '众多'), ('sectag', '诸多'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '滑动'), ('sectag', '滑行'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '底部'), ('sectag', '底端'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '牛仔'), ('sectag', '印第安人'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '男孩'), ('sectag', '男童'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '现在'), ('sectag', '当前'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '香料'), ('sectag', '香草'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '首位'), ('sectag', '尾位'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '桑拿'), ('sectag', '浴池'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '石膏'), ('sectag', '夹板'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '视觉'), ('sectag', '听觉'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '马匹'), ('sectag', '小马'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '粉笔'), ('sectag', '黑板'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '果汁'), ('sectag', '果肉'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '教授'), ('sectag', '学习'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '公牛'), ('sectag', '阉牛'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '粉刺'), ('sectag', '痘痘'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '轮子'), ('sectag', '滚动'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '旧的'), ('sectag', '新的'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '金酒'), ('sectag', '烈酒'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '步伐'), ('sectag', '楼梯'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '深深'), ('sectag', '浅浅'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '街道'), ('sectag', '道路'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '卖出'), ('sectag', '买入'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '手指'), ('sectag', '手掌'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '丢失'), ('sectag', '找到'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '租约'), ('sectag', '租金'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '漫步'), ('sectag', '行走'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '玩具'), ('sectag', '娃娃'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '妈妈'), ('sectag', '爸爸'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '松树'), ('sectag', '橡树'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '蛇类'), ('sectag', '大蟒'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '监狱'), ('sectag', '牢房'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '他'), ('sectag', '她'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '貂皮'), ('sectag', '毛皮'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '盎司'), ('sectag', '磅重'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '歌唱'), ('sectag', '歌曲'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '修理'), ('sectag', '修复'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '制造'), ('sectag', '设计'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '花费'), ('sectag', '节省'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '钝的'), ('sectag', '锋利'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '接力'), ('sectag', '赛跑'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '颜色'), ('sectag', '红色'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '非常'), ('sectag', '很多'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '观看'), ('sectag', '看见'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '开始'), ('sectag', '结束'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '撕裂'), ('sectag', '撕破'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '悲伤'), ('sectag', '哭泣'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '刮痕'), ('sectag', '痒痒'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '炉子'), ('sectag', '烹饪'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '鹰类'), ('sectag', '鸟类'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '圣经'), ('sectag', '书籍'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '醉酒'), ('sectag', '清醒'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '风暴'), ('sectag', '云层'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '衬衫'), ('sectag', '裤子'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '汽车'), ('sectag', '轿车'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '月份'), ('sectag', '年头'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '微风'), ('sectag', '大风'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '蒸气'), ('sectag', '汽蒸'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '大门'), ('sectag', '围栏'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '黄蜂'), ('sectag', '大黄'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '餐盘'), ('sectag', '碟子'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '活着'), ('sectag', '死亡'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '靠近'), ('sectag', '远离'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '胜利'), ('sectag', '失败'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '糖精'), ('sectag', '甜味'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '地毯'), ('sectag', '小毯'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '一对'), ('sectag', '一套'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '岩石'), ('sectag', '石头'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '离开'), ('sectag', '留下'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '通道'), ('sectag', '排列'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '打开'), ('sectag', '关闭'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '哨声'), ('sectag', '火车'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '裙子'), ('sectag', '连衣'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '外头'), ('sectag', '里头'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '减价'), ('sectag', '拍卖'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '上方'), ('sectag', '下方'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '现金'), ('sectag', '支票'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '摇尾'), ('sectag', '尾巴'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '牧师'), ('sectag', '教堂'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '滴水'), ('sectag', '漏水'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '雪花'), ('sectag', '雨点'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '文凭'), ('sectag', '学位'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '合唱'), ('sectag', '唱诗'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '切达'), ('sectag', '乳酪'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '墨水'), ('sectag', '笔头'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '拥抱'), ('sectag', '亲吻'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '生长'), ('sectag', '收缩'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '北方'), ('sectag', '南方'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '猴子'), ('sectag', '类人'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '旋律'), ('sectag', '曲调'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '锅具'), ('sectag', '烤盘'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '头部'), ('sectag', '头发'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '油料'), ('sectag', '气油'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '都市'), ('sectag', '小镇'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '一角'), ('sectag', '五分'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '阅读'), ('sectag', '写作'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '派饼'), ('sectag', '蛋糕'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '门扇'), ('sectag', '窗户'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '海报'), ('sectag', '标志'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '正义'), ('sectag', '法律'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '枪械'), ('sectag', '射击'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '冰块'), ('sectag', '寒冷'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '书桌'), ('sectag', '抽屉'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '海洋'), ('sectag', '大海'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '过去'), ('sectag', '未来'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '总是'), ('sectag', '从不'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '车站'), ('sectag', '货场'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '上方'), ('sectag', '下方'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '月亮'), ('sectag', '星星'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '肘部'), ('sectag', '膝盖'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '叉子'), ('sectag', '勺子'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '团队'), ('sectag', '球员'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '投掷'), ('sectag', '投球'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '狐狸'), ('sectag', '狼类'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '牛奶'), ('sectag', '奶油'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '天堂'), ('sectag', '地狱'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '信件'), ('sectag', '便条'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '胆小'), ('sectag', '英雄'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '最好'), ('sectag', '最差'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '鞋子'), ('sectag', '袜子'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '邮件'), ('sectag', '邮票'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '快乐'), ('sectag', '幸福'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '梳子'), ('sectag', '刷子'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '尖叫'), ('sectag', '大喊'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '出现'), ('sectag', '看见'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '咀嚼'), ('sectag', '吞咽'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '她的'), ('sectag', '他的'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '谈话'), ('sectag', '讲话'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '方形'), ('sectag', '圆形'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '草地'), ('sectag', '绿色'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '毯子'), ('sectag', '床单'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '是的'), ('sectag', '不是'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '这里'), ('sectag', '那里'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '修草'), ('sectag', '草坪'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '站立'), ('sectag', '坐下'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '味道'), ('sectag', '嗅觉'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '针线'), ('sectag', '线头'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '数字'), ('sectag', '字母'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '警察'), ('sectag', '警员'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '咒语'), ('sectag', '诅咒'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '寂静'), ('sectag', '哑巴'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '更多'), ('sectag', '更少'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '富裕'), ('sectag', '贫穷'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '开启'), ('sectag', '关闭'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '盲人'), ('sectag', '聋人'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '客栈'), ('sectag', '酒吧'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '桃子'), ('sectag', '李子'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '肌肉'), ('sectag', '肌体'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '公园'), ('sectag', '板凳'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '称重'), ('sectag', '秤重'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '蜘蛛'), ('sectag', '网络'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '害怕'), ('sectag', '恐惧'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '虫子'), ('sectag', '昆虫'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '铲子'), ('sectag', '铁铲'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '小偷'), ('sectag', '偷窃'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '游玩'), ('sectag', '游戏'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '毛巾'), ('sectag', '抹布'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '小牛'), ('sectag', '母牛'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '休息'), ('sectag', '放松'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '欺诈'), ('sectag', '作弊'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '熏肉'), ('sectag', '鸡蛋'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '帮助'), ('sectag', '协助'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '狮子'), ('sectag', '老虎'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '进食'), ('sectag', '饮水'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '能量'), ('sectag', '动力'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '新鲜'), ('sectag', '陈旧'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '皱眉'), ('sectag', '微笑'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '甲虫'), ('sectag', '蟑螂'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '一个'), ('sectag', '两个'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '钥匙'), ('sectag', '锁头'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '一半'), ('sectag', '整体'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '真实'), ('sectag', '虚假'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '鱼类'), ('sectag', '游泳'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '劳动'), ('sectag', '工作'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '疯狂'), ('sectag', '精神'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '很快'), ('sectag', '不久'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '母鹿'), ('sectag', '鹿类'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '编织'), ('sectag', '缝纫'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '花朵'), ('sectag', '花卉'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '正常'), ('sectag', '一般'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '雾气'), ('sectag', '薄雾'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '肺脏'), ('sectag', '心脏'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '战争'), ('sectag', '和平'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '跟随'), ('sectag', '领导'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '刺痛'), ('sectag', '疼痛'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '隐藏'), ('sectag', '寻找'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '通过'), ('sectag', '不及'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '剪刀'), ('sectag', '剪裁'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '围巾'), ('sectag', '颈部'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '跳跃'), ('sectag', '跳跃'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '单跳'), ('sectag', '跳过'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '混合'), ('sectag', '搅拌'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '粗糙'), ('sectag', '光滑'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '雪茄'), ('sectag', '烟斗'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '老鼠'), ('sectag', '老鼠'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '海龟'), ('sectag', '壳体'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '儿子'), ('sectag', '父亲'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '臭鼬'), ('sectag', '臭味'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '拿取'), ('sectag', '给予'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '银行'), ('sectag', '柜员'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '钉子'), ('sectag', '锤子'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '飞行'), ('sectag', '飞机'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '更易'), ('sectag', '更难'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '绵羊'), ('sectag', '小羊'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '简易'), ('sectag', '简单'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '扫除'), ('sectag', '扫帚'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '黑暗'), ('sectag', '光明'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '糖浆'), ('sectag', '蜂蜜'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '马戏'), ('sectag', '小丑'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '希腊'), ('sectag', '拉丁'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '黄昏'), ('sectag', '破晓'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '医生'), ('sectag', '护士'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '狭窄'), ('sectag', '宽广'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '借入'), ('sectag', '出借'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '柔软'), ('sectag', '坚硬'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '耕犁'), ('sectag', '田地'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '火焰'), ('sectag', '火焰'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '加号'), ('sectag', '减号'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '炎热'), ('sectag', '寒冷'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '丝绸'), ('sectag', '缎子'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '死亡'), ('sectag', '活着'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '矮人'), ('sectag', '侏儒'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '住宅'), ('sectag', '家园'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '水管'), ('sectag', '管道'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '昏暗'), ('sectag', '明亮'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '举起'), ('sectag', '搬运'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '品脱'), ('sectag', '夸脱'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '杏仁'), ('sectag', '坚果'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '渴望'), ('sectag', '饥饿'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '烘焙'), ('sectag', '烤箱'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '微小'), ('sectag', '极小'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '人群'), ('sectag', '人潮'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '浮动'), ('sectag', '下沉'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '霉变'), ('sectag', '霉菌'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '东方'), ('sectag', '西方'), ('firstnum', '0:06'), ('dis1num', '0:06'), ('dis2num', '0:06')]), OrderedDict([('probe', '礼服'), ('sectag', '西装'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '迅速'), ('sectag', '缓慢'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '姑妈'), ('sectag', '叔叔'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '愚笨'), ('sectag', '聪明'), ('firstnum', '0:09'), ('dis1num', '0:06'), ('dis2num', '0:03')]), OrderedDict([('probe', '一些'), ('sectag', '没有'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '保险'), ('sectag', '金库'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '聚会'), ('sectag', '狂欢'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '听见'), ('sectag', '聆听'), ('firstnum', '0:09'), ('dis1num', 0.0), ('dis2num', '0:09')]), OrderedDict([('probe', '鹅类'), ('sectag', '鸭类'), ('firstnum', '0:06'), ('dis1num', 0.0), ('dis2num', '0:12')]), OrderedDict([('probe', '瘦削'), ('sectag', '肥胖'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')]), OrderedDict([('probe', '记忆'), ('sectag', '心智'), ('firstnum', '0:06'), ('dis1num', '0:02'), ('dis2num', '0:10')]), OrderedDict([('probe', '搜索'), ('sectag', '猎寻'), ('firstnum', '0:09'), ('dis1num', '0:02'), ('dis2num', '0:07')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="wordlist1.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_4" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="cue"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="$firstnum" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('dislist', '池青母平出盐烤')]), OrderedDict([('dislist', '草女出偷油派刺')]), OrderedDict([('dislist', '诺报船庄儿潮杀')]), OrderedDict([('dislist', '更牧子用薄星虫')]), OrderedDict([('dislist', '希些时饼妈愿启')]), OrderedDict([('dislist', '连硬智黑毯点混')]), OrderedDict([('dislist', '方妈里云萄警狱')]), OrderedDict([('dislist', '管四觉葡肥部达')]), OrderedDict([('dislist', '书关烘勺修儿脱')]), OrderedDict([('dislist', '聆子沉头锅马好')]), OrderedDict([('dislist', '小憎害拉她善祈')]), OrderedDict([('dislist', '筐动药屋月石母')]), OrderedDict([('dislist', '地猴片球围铁店')]), OrderedDict([('dislist', '钥年水头珠男最')]), OrderedDict([('dislist', '月手金件场虚害')]), OrderedDict([('dislist', '考陈饭地息福猪')]), OrderedDict([('dislist', '士投活大戮诸跑')]), OrderedDict([('dislist', '支星掷标雪数小')]), OrderedDict([('dislist', '般约鲜发助料爱')]), OrderedDict([('dislist', '单尾碟慢子亡类')]), OrderedDict([('dislist', '窃茶发祷找心地')]), OrderedDict([('dislist', '路迈游作旋授邮')]), OrderedDict([('dislist', '粉来玩调醒心板')]), OrderedDict([('dislist', '花服亲卉旧修警')]), OrderedDict([('dislist', '走座找腊雹损下')]), OrderedDict([('dislist', '果行礼钟子个酒')]), OrderedDict([('dislist', '生修很酒客动桃')]), OrderedDict([('dislist', '毛清唇裁鹰雾坐')]), OrderedDict([('dislist', '接婴痛凉冰园和')]), OrderedDict([('dislist', '幸黄半酪道岩开')]), OrderedDict([('dislist', '压机吞衣奶搬队')]), OrderedDict([('dislist', '人话更暗对锤浮')]), OrderedDict([('dislist', '草子游巴觉角饥')]), OrderedDict([('dislist', '飞地肺害简油觉')]), OrderedDict([('dislist', '缩伤甲有员带快')]), OrderedDict([('dislist', '裙思君费子街予')]), OrderedDict([('dislist', '片楼糕鸡大一子')]), OrderedDict([('dislist', '欺上车士话离国')]), OrderedDict([('dislist', '放进个丢车渴嘴')]), OrderedDict([('dislist', '怒焰着针取侏靠')]), OrderedDict([('dislist', '生方菌温柠啡现')]), OrderedDict([('dislist', '听子幔面言笨祷')]), OrderedDict([('dislist', '易理里浅笔夸姓')]), OrderedDict([('dislist', '背迫鼠静笑门射')]), OrderedDict([('dislist', '稻袜正头嚏试爸')]), OrderedDict([('dislist', '动子领饮草站合')]), OrderedDict([('dislist', '扫导站归收渴子')]), OrderedDict([('dislist', '主喊昏高群怒举')]), OrderedDict([('dislist', '盎类博敌牛药窗')]), OrderedDict([('dislist', '这狗弊恋近割重')]), OrderedDict([('dislist', '母少头叉投蛋泊')]), OrderedDict([('dislist', '人子姑她品熟孩')]), OrderedDict([('dislist', '铁浴优色体黄久')]), OrderedDict([('dislist', '微银生袋湖寂娃')]), OrderedDict([('dislist', '部管大很小的麦')]), OrderedDict([('dislist', '学破总那海板艘')]), OrderedDict([('dislist', '壳麦叶字狸赛肉')]), OrderedDict([('dislist', '细巾蛇公江列泥')]), OrderedDict([('dislist', '患肉轻色痛年九')]), OrderedDict([('dislist', '公力英唱下寸租')]), OrderedDict([('dislist', '监皮丁庞指咽圆')]), OrderedDict([('dislist', '带唱始寒刀色刺')]), OrderedDict([('dislist', '霉鞋外磅扫果卖')]), OrderedDict([('dislist', '愿滚昆亏些压唇')]), OrderedDict([('dislist', '下子沙火脚润头')]), OrderedDict([('dislist', '夹西北护铺棋黄')]), OrderedDict([('dislist', '着锋嗽水胆黄屉')]), OrderedDict([('dislist', '恐烟东甜香凳李')]), OrderedDict([('dislist', '看方入深滑儒盏')]), OrderedDict([('dislist', '头观天哨朗望声')]), OrderedDict([('dislist', '味力久块椒鸭出')]), OrderedDict([('dislist', '冷会类狱窄归始')]), OrderedDict([('dislist', '阅明拍近开水茄')]), OrderedDict([('dislist', '亡车钟写长我洁')]), OrderedDict([('dislist', '堂学暖铺到平简')]), OrderedDict([('dislist', '土草败好糊房通')]), OrderedDict([('dislist', '行物病牛视床味')]), OrderedDict([('dislist', '泳看难油子拿暗')]), OrderedDict([('dislist', '线盖湖当盘滑微')]), OrderedDict([('dislist', '狐洋听拌方歌套')]), OrderedDict([('dislist', '沉手壁图借讲律')]), OrderedDict([('dislist', '痒抽隐注及思蜂')]), OrderedDict([('dislist', '过方停远子手睛')]), OrderedDict([('dislist', '最深第烟朵匹杀')]), OrderedDict([('dislist', '病轮车戏风九校')]), OrderedDict([('dislist', '南高石小快雄悲')]), OrderedDict([('dislist', '黄道怕头冰空不')]), OrderedDict([('dislist', '星帘墙省拥记小')]), OrderedDict([('dislist', '狼地设月慈不师')]), OrderedDict([('dislist', '树明痒位道头草')]), OrderedDict([('dislist', '果果工肉从球通')]), OrderedDict([('dislist', '沙精缝子子金子')]), OrderedDict([('dislist', '开闭诈首去奶炎')]), OrderedDict([('dislist', '松肉听告你潮闭')]), OrderedDict([('dislist', '宽随关糙妈道行')]), OrderedDict([('dislist', '良净友快类书虫')]), OrderedDict([('dislist', '车更午常虫取一')]), OrderedDict([('dislist', '篮蓝验邮未多子')]), OrderedDict([('dislist', '广鸡整风蜘河一')]), OrderedDict([('dislist', '刮行疼跳心缎小')]), OrderedDict([('dislist', '减栈臂坚衬箱床')]), OrderedDict([('dislist', '收水叔假烟击常')]), OrderedDict([('dislist', '察犁大店酒碟金')]), OrderedDict([('dislist', '水咪部剪籃人是')]), OrderedDict([('dislist', '他蒸巨水田聋胖')]), OrderedDict([('dislist', '狗鸟食坚跃蛛斧')]), OrderedDict([('dislist', '志女撕刀加良慢')]), OrderedDict([('dislist', '减跳子昏易住头')]), OrderedDict([('dislist', '毛形王沙牛愚糖')]), OrderedDict([('dislist', '尖天子漫润老镇')]), OrderedDict([('dislist', '层柠猫咳巾具毯')]), OrderedDict([('dislist', '号邋行柜卧结鱼')]), OrderedDict([('dislist', '子车具晓按望龟')]), OrderedDict([('dislist', '作裤久热丝刺粗')]), OrderedDict([('dislist', '和老铲花球摇猫')]), OrderedDict([('dislist', '你雾手子糖搜考')]), OrderedDict([('dislist', '火膝丸坐童极绿')]), OrderedDict([('dislist', '醉焙多合肌动弱')]), OrderedDict([('dislist', '活网开时盲名便')]), OrderedDict([('dislist', '蜂油牢斧语胶板')]), OrderedDict([('dislist', '蟑租车云栏复整')]), OrderedDict([('dislist', '貂湿讲刮止河梳')]), OrderedDict([('dislist', '口掌老见乳动称')]), OrderedDict([('dislist', '死桌人借沙蒸诗')]), OrderedDict([('dislist', '量风绸诺团承嗅')]), OrderedDict([('dislist', '桑速单见动颈膀')]), OrderedDict([('dislist', '宝是杏水饿方上')]), OrderedDict([('dislist', '小员牛路冷色立')]), OrderedDict([('dislist', '寻钉打污子尺杂')]), OrderedDict([('dislist', '气底聪址纫一练')]), OrderedDict([('dislist', '个印光臭五子螂')]), OrderedDict([('dislist', '除寻苹亮见草搅')]), OrderedDict([('dislist', '哑水鸡树地头实')]), OrderedDict([('dislist', '信子新险杯暴膏')]), OrderedDict([('dislist', '牛游浆石阉帚形')]), OrderedDict([('dislist', '公人狂重拳花窗')]), OrderedDict([('dislist', '衰欢五雾嚼拉雨')]), OrderedDict([('dislist', '类份红处时只草')]), OrderedDict([('dislist', '小货水体肉马脏')]), OrderedDict([('dislist', '衫一盘公前子挤')]), OrderedDict([('dislist', '颜裂滴他我枪马')]), OrderedDict([('dislist', '压善母英线教计')]), OrderedDict([('dislist', '根方蟒亲叫出手')]), OrderedDict([('dislist', '贫草月的分包餐')]), OrderedDict([('dislist', '娃匙耕富泥近猎')]), OrderedDict([('dislist', '赌留宅商亮束络')]), OrderedDict([('dislist', '开清刷暖制皱位')]), OrderedDict([('dislist', '牛位尾底布教过')]), OrderedDict([('dislist', '餐安金家排黏发')]), OrderedDict([('dislist', '咀味件曲分造助')]), OrderedDict([('dislist', '里运撕咒狭尾经')]), OrderedDict([('dislist', '孩材的精鼠船脱')]), OrderedDict([('dislist', '钢都熏蛋丑叔痘')]), OrderedDict([('dislist', '库下通步给墨凳')]), OrderedDict([('dislist', '发市削鹅伤编习')]), OrderedDict([('dislist', '方票惧类盘唱柔')]), OrderedDict([('dislist', '眼子玩号学烈地')]), OrderedDict([('dislist', '仔丝不装现诅轿')]), OrderedDict([('dislist', '马梯赌藏忆喷小')]), OrderedDict([('dislist', '恨酒跑汽物气牛')]), OrderedDict([('dislist', '点子没票拿争帮')]), OrderedDict([('dislist', '众大鼬织提良微')]), OrderedDict([('dislist', '长房方步园文巴')]), OrderedDict([('dislist', '利成虎蜜索剪作')]), OrderedDict([('dislist', '清烹围夹老裕秤')]), OrderedDict([('dislist', '脏缓草脏损瘦疯')]), OrderedDict([('dislist', '虚斗跳板狂读青')]), OrderedDict([('dislist', '烤子子仁的焰大')]), OrderedDict([('dislist', '迅瓦拉料平偷进')]), OrderedDict([('dislist', '人开方拳园食切')]), OrderedDict([('dislist', '不标酒义钢是人')]), OrderedDict([('dislist', '气更类泣场肘黑')]), OrderedDict([('dislist', '人小农一海球黑')]), OrderedDict([('dislist', '重跑多浅价过动')]), OrderedDict([('dislist', '节人石雪部起破')]), OrderedDict([('dislist', '差子流真利压盘')]), OrderedDict([('dislist', '飞永室协戏能凭')]), OrderedDict([('dislist', '劳色狮奶公轿单')]), OrderedDict([('dislist', '类力圣堂饪锁狗')]), OrderedDict([('dislist', '刀害保愤矮小端')]), OrderedDict([('dislist', '吻雨宝员跳正新')]), OrderedDict([('dislist', '英跟下然遢油胜')]), OrderedDict([('dislist', '买小帘钝炉凳的')]), OrderedDict([('dislist', '谈橡司道方弱水')]), OrderedDict([('dislist', '鹿胡明汽跃失笔')]), OrderedDict([('dislist', '冻椅吧卖软地械')]), OrderedDict([('dislist', '抱穷部大字间伤')]), OrderedDict([('dislist', '父推局果神屋汽')]), OrderedDict([('dislist', '湿看瓣大医男臭')]), OrderedDict([('dislist', '测果水扯利香非')]), OrderedDict([('dislist', '铜滑失演动金寒')]), OrderedDict([('dislist', '更爸老过在黄位')]), OrderedDict([('dislist', '农剃接霉绵伤松')]), OrderedDict([('dislist', '法痕咖檬童的学')]), OrderedDict([('dislist', '子曲午入酒籍离')]), OrderedDict([('dislist', '院铲条地马漏伐')]), OrderedDict([('dislist', '毯啤光巴门长击')]), OrderedDict([('dislist', '子海收洁粉间鹿')]), OrderedDict([('dislist', '体聚菜旧果休车')]), OrderedDict([('dislist', '火变草肌多眉皮')]), OrderedDict([('dislist', '歌讲痘羊律两咒')]), OrderedDict([('dislist', '小花丝西哭人乐')]), OrderedDict([('dislist', '部坪子火扇一顶')]), OrderedDict([('dislist', '海抹类食头死现')]), OrderedDict([('dislist', '小臂棋射酱鼻羊')]), OrderedDict([('dislist', '汁白战床子户')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="distractorlist.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="dis1"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="firsTar"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="0:5" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('dislist', '的草记胖尺恨水')]), OrderedDict([('dislist', '虎大糕粉密刀活')]), OrderedDict([('dislist', '小半咳冰口听子')]), OrderedDict([('dislist', '团孩线笔界孩安')]), OrderedDict([('dislist', '衣肺通猴敌地大')]), OrderedDict([('dislist', '演地司通刺方默')]), OrderedDict([('dislist', '很托橡石力斧戏')]), OrderedDict([('dislist', '级窗板剪刀铁写')]), OrderedDict([('dislist', '酪游绸小十始弱')]), OrderedDict([('dislist', '石想椅慢锅的做')]), OrderedDict([('dislist', '分大燃园奔饿的')]), OrderedDict([('dislist', '四队花方熟夫石')]), OrderedDict([('dislist', '拥公到条鸟唱肉')]), OrderedDict([('dislist', '单袋发滚朗容露')]), OrderedDict([('dislist', '地硬的肉较稻子')]), OrderedDict([('dislist', '子誓战池刀助子')]), OrderedDict([('dislist', '蝴堂校玩果小学')]), OrderedDict([('dislist', '白痒是醉毒放平')]), OrderedDict([('dislist', '闭龄少损猪钢法')]), OrderedDict([('dislist', '员切皮曲明缄时')]), OrderedDict([('dislist', '咖龟嘴字甲汽约')]), OrderedDict([('dislist', '的包帝学奶的年')]), OrderedDict([('dislist', '发的胶子现察海')]), OrderedDict([('dislist', '里作干成张慢球')]), OrderedDict([('dislist', '的死道投分内字')]), OrderedDict([('dislist', '手织过子尖连动')]), OrderedDict([('dislist', '床派金装他教霾')]), OrderedDict([('dislist', '儿宝她大个爸扫')]), OrderedDict([('dislist', '坐找子亲火晴钟')]), OrderedDict([('dislist', '人行沙手黄板飞')]), OrderedDict([('dislist', '发毁牛色公五指')]), OrderedDict([('dislist', '长子行腊的尘尾')]), OrderedDict([('dislist', '果测丁屉运向站')]), OrderedDict([('dislist', '毛看下纳会饥报')]), OrderedDict([('dislist', '行松癫站冷茶田')]), OrderedDict([('dislist', '火臭跟工度臭月')]), OrderedDict([('dislist', '鸡脚的宅祷李的')]), OrderedDict([('dislist', '锁与蜂心的狗吃')]), OrderedDict([('dislist', '物鲜雾信下得打')]), OrderedDict([('dislist', '祈小方清泳仔教')]), OrderedDict([('dislist', '挠子糕蜂十桑空')]), OrderedDict([('dislist', '的昆的面来为雨')]), OrderedDict([('dislist', '钝掉钟子嚏减的')]), OrderedDict([('dislist', '九有汽寻两撕葡')]), OrderedDict([('dislist', '更存的年丝从子')]), OrderedDict([('dislist', '湿亡的店地在的')]), OrderedDict([('dislist', '嗽肘裤按车一珠')]), OrderedDict([('dislist', '上胡杏的库第台')]), OrderedDict([('dislist', '水雄酒和关医掷')]), OrderedDict([('dislist', '租坪咽一蜜凭接')]), OrderedDict([('dislist', '员店的黄螂药糟')]), OrderedDict([('dislist', '侏到丝干留卖须')]), OrderedDict([('dislist', '多学理富过气王')]), OrderedDict([('dislist', '害去痤放球碍刻')]), OrderedDict([('dislist', '肉小面农守细一')]), OrderedDict([('dislist', '黑外塘五汽士新')]), OrderedDict([('dislist', '子果瓦镇非尾损')]), OrderedDict([('dislist', '伤等托麦食看鸡')]), OrderedDict([('dislist', '的阻姨手的包的')]), OrderedDict([('dislist', '松打律齿跳燕土')]), OrderedDict([('dislist', '斗梯轻很会人天')]), OrderedDict([('dislist', '跑穷炉帮的的花')]), OrderedDict([('dislist', '警导草惧培的址')]), OrderedDict([('dislist', '烤更的旋杀蒸狸')]), OrderedDict([('dislist', '气生谷失柄缎电')]), OrderedDict([('dislist', '赛后果汽平物马')]), OrderedDict([('dislist', '睛诈小烂的抹脖')]), OrderedDict([('dislist', '午希部薄最顶牌')]), OrderedDict([('dislist', '净道光的力城巾')]), OrderedDict([('dislist', '口汽唇网然分规')]), OrderedDict([('dislist', '顶腿酒子带菌南')]), OrderedDict([('dislist', '生管量黄看平对')]), OrderedDict([('dislist', '的洋贼河根霉一')]), OrderedDict([('dislist', '帚车狮的色杀子')]), OrderedDict([('dislist', '虫小英梦我糙车')]), OrderedDict([('dislist', '滑动浆帘载栏狂')]), OrderedDict([('dislist', '程叔牙胡草微出')]), OrderedDict([('dislist', '长市我导子时钢')]), OrderedDict([('dislist', '酒的颜红人药失')]), OrderedDict([('dislist', '方单量盲有许子')]), OrderedDict([('dislist', '合牛强朵方的钱')]), OrderedDict([('dislist', '粗的老易切锤铜')]), OrderedDict([('dislist', '否泥海出一眼伏')]), OrderedDict([('dislist', '开子蓝的子耗现')]), OrderedDict([('dislist', '雪讲缩开的跑领')]), OrderedDict([('dislist', '短受好微喊草的')]), OrderedDict([('dislist', '暗压不酸貂车浮')]), OrderedDict([('dislist', '切方绿羊房的贫')]), OrderedDict([('dislist', '生欺买乌的的沙')]), OrderedDict([('dislist', '爱缝柠枪疯渴昏')]), OrderedDict([('dislist', '打果椅设轮阉漫')]), OrderedDict([('dislist', '的保歌小陈毛巴')]), OrderedDict([('dislist', '的懦苹打厅天力')]), OrderedDict([('dislist', '的打师长欺文束')]), OrderedDict([('dislist', '池间毯谈止根小')]), OrderedDict([('dislist', '幕扫场饼石色风')]), OrderedDict([('dislist', '暗绸维色衬温盎')]), OrderedDict([('dislist', '的觉歌停夸藏子')]), OrderedDict([('dislist', '说修孔阿汤病全')]), OrderedDict([('dislist', '子偶星蜂羔收短')]), OrderedDict([('dislist', '经溪猫愚时动思')]), OrderedDict([('dislist', '邋老跳青常立月')]), OrderedDict([('dislist', '间息箱开盘讲加')]), OrderedDict([('dislist', '你行草啤输量油')]), OrderedDict([('dislist', '位马雪火斧的隐')]), OrderedDict([('dislist', '的钉具深虫兴衫')]), OrderedDict([('dislist', '子男桌车的个困')]), OrderedDict([('dislist', '站阶烤议铜头给')]), OrderedDict([('dislist', '板监大喜梯妈果')]), OrderedDict([('dislist', '售开底走桃高力')]), OrderedDict([('dislist', '怕开的地杯拉一')]), OrderedDict([('dislist', '牛皮部人难微部')]), OrderedDict([('dislist', '混鼻找膝锋吧通')]), OrderedDict([('dislist', '烟去哑蛇数上人')]), OrderedDict([('dislist', '湖黎英压丑吞图')]), OrderedDict([('dislist', '猿协臂蠢这男费')]), OrderedDict([('dislist', '计歌国的海椒管')]), OrderedDict([('dislist', '物修小在喝他形')]), OrderedDict([('dislist', '餐银射药所狱子')]), OrderedDict([('dislist', '狼的赛镑亮大片')]), OrderedDict([('dislist', '随窗儒的戏见整')]), OrderedDict([('dislist', '公瘦拍屋恶宝线')]), OrderedDict([('dislist', '行冷烟小盖的座')]), OrderedDict([('dislist', '馅风团棋压咏着')]), OrderedDict([('dislist', '考酱蛋单哭沙脱')]), OrderedDict([('dislist', '仓牛鸭的果对仁')]), OrderedDict([('dislist', '第亮狐片始滑是')]), OrderedDict([('dislist', '常游干叔北恐道')]), OrderedDict([('dislist', '抱的女酒板东悲')]), OrderedDict([('dislist', '学儿错石水毯刻')]), OrderedDict([('dislist', '气漂账走院发的')]), OrderedDict([('dislist', '鞋墙蝶的忆击卖')]), OrderedDict([('dislist', '更地册笛疮试死')]), OrderedDict([('dislist', '童草游萄子蜘安')]), OrderedDict([('dislist', '蟑朋律动明的部')]), OrderedDict([('dislist', '银悦话康住抽咀')]), OrderedDict([('dislist', '大唱近的笑骗啡')]), OrderedDict([('dislist', '找篮热勺鼠坏停')]), OrderedDict([('dislist', '公手料接的旧雪')]), OrderedDict([('dislist', '发友更说赏共后')]), OrderedDict([('dislist', '雾下送跃水卖的')]), OrderedDict([('dislist', '奶关的未重叉杂')]), OrderedDict([('dislist', '醒盘象结海赢拉')]), OrderedDict([('dislist', '路特割好粘热铁')]), OrderedDict([('dislist', '海餐接奶玩跃没')]), OrderedDict([('dislist', '借油葡茄地仔膏')]), OrderedDict([('dislist', '黄险望的扔的声')]), OrderedDict([('dislist', '声读明名窄偷认')]), OrderedDict([('dislist', '子车加二博盐眉')]), OrderedDict([('dislist', '誓商现西观爸在')]), OrderedDict([('dislist', '沉的牛地搅道长')]), OrderedDict([('dislist', '更的的的向铲裂')]), OrderedDict([('dislist', '针邮调亲野堂暖')]), OrderedDict([('dislist', '旧子汁常快警子')]), OrderedDict([('dislist', '的汽谋鹿健味发')]), OrderedDict([('dislist', '少的聋喷肌益狱')]), OrderedDict([('dislist', '糖四马出婴达到')]), OrderedDict([('dislist', '拿休金睡鼬烟个')]), OrderedDict([('dislist', '税匙你黑母矮楼')]), OrderedDict([('dislist', '袜轮雨击争的拿')]), OrderedDict([('dislist', '习围门小图坚远')]), OrderedDict([('dislist', '结运的艇赌更母')]), OrderedDict([('dislist', '鹅色愿她机最花')]), OrderedDict([('dislist', '酒儿整小坏倒金')]), OrderedDict([('dislist', '后听宽针树马卡')]), OrderedDict([('dislist', '思的里蛇丢更门')]), OrderedDict([('dislist', '跑失破冲子干果')]), OrderedDict([('dislist', '助雹色羊上头粉')]), OrderedDict([('dislist', '小烹猫成水嚼檬')]), OrderedDict([('dislist', '硬夹的一字街个')]), OrderedDict([('dislist', '形考件焰母脏低')]), OrderedDict([('dislist', '书虫云虚诅住怒')]), OrderedDict([('dislist', '私的近割昏锹着')]), OrderedDict([('dislist', '视肌糖鱼梳邮更')]), OrderedDict([('dislist', '搜的赌子疯货吻')]), OrderedDict([('dislist', '冻借毛对寻泳巨')]), OrderedDict([('dislist', '裙许离浅毯酒的')]), OrderedDict([('dislist', '笔高音话吃的挤')]), OrderedDict([('dislist', '泣碟推路刺圣话')]), OrderedDict([('dislist', '猛叫大刮洁人壮')]), OrderedDict([('dislist', '些黄容的家步群')]), OrderedDict([('dislist', '的简冰合蔼黑下')]), OrderedDict([('dislist', '过酪刷暴易多活')]), OrderedDict([('dislist', '簇公饪棋复岩里')]), OrderedDict([('dislist', '车球道便油钥利')]), OrderedDict([('dislist', '软遢总园刺排年')]), OrderedDict([('dislist', '的夹味寸圆布的')]), OrderedDict([('dislist', '布铺的车蛋头甜')]), OrderedDict([('dislist', '新人服亲的墨套')]), OrderedDict([('dislist', '晚死牛件队公栅')]), OrderedDict([('dislist', '滴蛛正牧壳鸡明')]), OrderedDict([('dislist', '赁盘小馆亮沙世')]), OrderedDict([('dislist', '月币拉锅费女妈')]), OrderedDict([('dislist', '狗夹剃滑水杯诺')]), OrderedDict([('dislist', '员小底跳面玩月')]), OrderedDict([('dislist', '讲正鹰绵头铁票')]), OrderedDict([('dislist', '聚工租子江英入')]), OrderedDict([('dislist', '水的干寻星裙犁')]), OrderedDict([('dislist', '皱飞西香谷验萄')]), OrderedDict([('dislist', '霉护方印的伤团')]), OrderedDict([('dislist', '聪撕劳轮物害最')]), OrderedDict([('dislist', '的咒的肉牛子橙')]), OrderedDict([('dislist', '硬滩巾草的那年')]), OrderedDict([('dislist', '桌摇鹿渴柄能床')]), OrderedDict([('dislist', '败拌的风品和父')]), OrderedDict([('dislist', '更肱曲快收王量')]), OrderedDict([('dislist', '方指丸雌多一树')]), OrderedDict([('dislist', '脱人的示的泄的')]), OrderedDict([('dislist', '币收蜜')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="distractorlist.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="dis1"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="probe"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_3">
+      <Param name="Selected rows" updates="None" val="0:5" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('dislist', '玩节秤毯潮气卧')]), OrderedDict([('dislist', '北报量猎久剪愤')]), OrderedDict([('dislist', '放栏方赌火简子')]), OrderedDict([('dislist', '你道思黏湿动云')]), OrderedDict([('dislist', '跑般盖脚战吞合')]), OrderedDict([('dislist', '休蜘家膝重子机')]), OrderedDict([('dislist', '糊顶类润钢图唱')]), OrderedDict([('dislist', '草肌肘焰良然国')]), OrderedDict([('dislist', '蛋出寂猪车街开')]), OrderedDict([('dislist', '手闭时给丝狐侏')]), OrderedDict([('dislist', '根员借熏路梯菜')]), OrderedDict([('dislist', '花的粗好头雾痘')]), OrderedDict([('dislist', '石车聆卖泥跳真')]), OrderedDict([('dislist', '狸子盘儿子窃方')]), OrderedDict([('dislist', '会接察铲水牛萄')]), OrderedDict([('dislist', '方人形伤发道岩')]), OrderedDict([('dislist', '老园开憎福嚏类')]), OrderedDict([('dislist', '海迫不窗聪鼠始')]), OrderedDict([('dislist', '锤拳部矮农花找')]), OrderedDict([('dislist', '注果拿子亮跑皮')]), OrderedDict([('dislist', '粉片病败留盘苹')]), OrderedDict([('dislist', '咒旧铺女跃姑票')]), OrderedDict([('dislist', '长颜公赛大马板')]), OrderedDict([('dislist', '浆鸟子走份地地')]), OrderedDict([('dislist', '市稻前书子泥管')]), OrderedDict([('dislist', '刮心些永学戏动')]), OrderedDict([('dislist', '清肉欢成唇指底')]), OrderedDict([('dislist', '饪不计锋臂明人')]), OrderedDict([('dislist', '损月过行风伤租')]), OrderedDict([('dislist', '利方理总损良年')]), OrderedDict([('dislist', '众房焙钟裁寒方')]), OrderedDict([('dislist', '咀马脏男味类穷')]), OrderedDict([('dislist', '磅结狱小缩的队')]), OrderedDict([('dislist', '大青桑童树绵文')]), OrderedDict([('dislist', '下列印尖曲狗油')]), OrderedDict([('dislist', '重盏考称蛇归标')]), OrderedDict([('dislist', '物尺温拳邮到起')]), OrderedDict([('dislist', '河黄游看腊争优')]), OrderedDict([('dislist', '肌烟害位跃幔雄')]), OrderedDict([('dislist', '盲梳哭料球汽痒')]), OrderedDict([('dislist', '件麦去咽匙漫承')]), OrderedDict([('dislist', '地奶人车肉行敌')]), OrderedDict([('dislist', '义两大毯旋果地')]), OrderedDict([('dislist', '餐跳镇痕泊类杀')]), OrderedDict([('dislist', '刺锅多道牛水通')]), OrderedDict([('dislist', '九阉痛高子在服')]), OrderedDict([('dislist', '授抱滚球大子食')]), OrderedDict([('dislist', '英香大匹搅械籃')]), OrderedDict([('dislist', '类不马多子暖一')]), OrderedDict([('dislist', '飞陈油考铁个睛')]), OrderedDict([('dislist', '肉小射我笨单光')]), OrderedDict([('dislist', '怕鹰河园子臂部')]), OrderedDict([('dislist', '子老钝减动皱子')]), OrderedDict([('dislist', '草近晓最始试年')]), OrderedDict([('dislist', '偷的橡跟归雹车')]), OrderedDict([('dislist', '眼院隐鹿差火速')]), OrderedDict([('dislist', '学患下药蜂演正')]), OrderedDict([('dislist', '品头户锁丑棋柔')]), OrderedDict([('dislist', '块肉雾儒靠习烟')]), OrderedDict([('dislist', '微昏坐多火警喷')]), OrderedDict([('dislist', '醒白东生玩口虫')]), OrderedDict([('dislist', '巴心西部话凭址')]), OrderedDict([('dislist', '调快开启射母刷')]), OrderedDict([('dislist', '下迅月常撕狂帘')]), OrderedDict([('dislist', '压祷方树一生毛')]), OrderedDict([('dislist', '些压害色小孩单')]), OrderedDict([('dislist', '甜礼更更愿妈静')]), OrderedDict([('dislist', '随极哑弱仔海见')]), OrderedDict([('dislist', '暗点筐简背猫行')]), OrderedDict([('dislist', '病开水桌袋胡来')]), OrderedDict([('dislist', '室一压劳鹅间屋')]), OrderedDict([('dislist', '作圆缓场实哨娃')]), OrderedDict([('dislist', '南路嗽买油子水')]), OrderedDict([('dislist', '棋黄净脱黄风地')]), OrderedDict([('dislist', '硬朵人裙冻牛人')]), OrderedDict([('dislist', '热验言爱钉头茶')]), OrderedDict([('dislist', '虚葡光子没体通')]), OrderedDict([('dislist', '的斧条色杏诗怒')]), OrderedDict([('dislist', '息子富酒烘头亡')]), OrderedDict([('dislist', '很入水伐有刺破')]), OrderedDict([('dislist', '诺部星味位动端')]), OrderedDict([('dislist', '水袜离修商赌协')]), OrderedDict([('dislist', '杀钟警微当搜恨')]), OrderedDict([('dislist', '友草盎叉冰巴狼')]), OrderedDict([('dislist', '刀唇票青层子我')]), OrderedDict([('dislist', '蒸平偷粉纫沙子')]), OrderedDict([('dislist', '里妈笑甲跑大大')]), OrderedDict([('dislist', '的吧慢正羊头清')]), OrderedDict([('dislist', '料黑推刮清亮江')]), OrderedDict([('dislist', '船坐烈爸局发掷')]), OrderedDict([('dislist', '一险水精合明耕')]), OrderedDict([('dislist', '小类色房体皮恐')]), OrderedDict([('dislist', '石盘加作饭时新')]), OrderedDict([('dislist', '头见星伤车沙角')]), OrderedDict([('dislist', '方钥标叶轻具凳')]), OrderedDict([('dislist', '处神湖软雨猫投')]), OrderedDict([('dislist', '湖幸湿膀整小望')]), OrderedDict([('dislist', '喊着丁子停更烹')]), OrderedDict([('dislist', '掌饼发物子婴汽')]), OrderedDict([('dislist', '他蜜水绸好连类')]), OrderedDict([('dislist', '游库利工色地歌')]), OrderedDict([('dislist', '裤愿团方小活雾')]), OrderedDict([('dislist', '接派浅丢刀嚼曲')]), OrderedDict([('dislist', '臭蛛浴农及害小')]), OrderedDict([('dislist', '笔尾暴客出觉邮')]), OrderedDict([('dislist', '草船子第护生子')]), OrderedDict([('dislist', '屉关鸡面离良明')]), OrderedDict([('dislist', '车英巴缝写小唱')]), OrderedDict([('dislist', '位伤公糕狗助暖')]), OrderedDict([('dislist', '黄声味金炉鹿分')]), OrderedDict([('dislist', '新深斧击子暗观')]), OrderedDict([('dislist', '黄门虫咪下柠头')]), OrderedDict([('dislist', '杯聚茄易滑霉是')]), OrderedDict([('dislist', '渴空嗅邋她行西')]), OrderedDict([('dislist', '片拉黑字马柠脏')]), OrderedDict([('dislist', '学络爸是进半狂')]), OrderedDict([('dislist', '五仁月祈麦线石')]), OrderedDict([('dislist', '长予熟现丝瘦蟑')]), OrderedDict([('dislist', '剃出糙制车坚小')]), OrderedDict([('dislist', '失水疯对油箱轮')]), OrderedDict([('dislist', '圣油巾心阅金鞋')]), OrderedDict([('dislist', '板叔能花蓝咒力')]), OrderedDict([('dislist', '死搬作只弱瓦望')]), OrderedDict([('dislist', '子精糖君流达惧')]), OrderedDict([('dislist', '果寸司丸管最进')]), OrderedDict([('dislist', '炎斗高点运果诸')]), OrderedDict([('dislist', '里子石刺重愚烤')]), OrderedDict([('dislist', '巨多鱼听这告过')]), OrderedDict([('dislist', '方酪女戏铺的监')]), OrderedDict([('dislist', '动力个着道带久')]), OrderedDict([('dislist', '上酱里群蛋力水')]), OrderedDict([('dislist', '割未测讲聋整讲')]), OrderedDict([('dislist', '艘找和尾法套牛')]), OrderedDict([('dislist', '海滑语眉臭庄记')]), OrderedDict([('dislist', '毯轿宅善间广庞')]), OrderedDict([('dislist', '宝公脱收诺歌衰')]), OrderedDict([('dislist', '更田老修经水雪')]), OrderedDict([('dislist', '一楼过叫撕子痒')]), OrderedDict([('dislist', '和出子尾风疼子')]), OrderedDict([('dislist', '昏子咳床步收牧')]), OrderedDict([('dislist', '松行蟒站贫发手')]), OrderedDict([('dislist', '头狱痛凳提布窄')]), OrderedDict([('dislist', '五酒编装入酒碟')]), OrderedDict([('dislist', '滑菌善步裂拉牛')]), OrderedDict([('dislist', '形拍杂泳男游沉')]), OrderedDict([('dislist', '天跳费草止夸取')]), OrderedDict([('dislist', '李老饥鸭饮员扯')]), OrderedDict([('dislist', '酒更墨开手小破')]), OrderedDict([('dislist', '酒巾壁立体易碟')]), OrderedDict([('dislist', '上霉约闭人觉果')]), OrderedDict([('dislist', '犁弊过笔奶浅土')]), OrderedDict([('dislist', '便公润主板场教')]), OrderedDict([('dislist', '听打子冷坚个香')]), OrderedDict([('dislist', '人壳冰桃潮校瓣')]), OrderedDict([('dislist', '肺椅远草少汁医')]), OrderedDict([('dislist', '教虚螂污通材月')]), OrderedDict([('dislist', '龟叔花天快黑酒')]), OrderedDict([('dislist', '果拉不摇餐鸡飞')]), OrderedDict([('dislist', '黄戮看糖深方床')]), OrderedDict([('dislist', '学地毛火怒午拥')]), OrderedDict([('dislist', '膏凉谈薄雨铲从')]), OrderedDict([('dislist', '切盐时檬希类一')]), OrderedDict([('dislist', '慢缎扇件士取童')]), OrderedDict([('dislist', '位奶网跳活现是')]), OrderedDict([('dislist', '红虎围很现洁池')]), OrderedDict([('dislist', '凳用久胆亲线她')]), OrderedDict([('dislist', '近吻妈保忆孩鼬')]), OrderedDict([('dislist', '亲冷胜地货夹母')]), OrderedDict([('dislist', '人虫志非字店道')]), OrderedDict([('dislist', '读痘削拌混牛沙')]), OrderedDict([('dislist', '啡星慈药拿利果')]), OrderedDict([('dislist', '关草衬母造头号')]), OrderedDict([('dislist', '座绿子椒洋动朗')]), OrderedDict([('dislist', '球乐你帘墙地借')]), OrderedDict([('dislist', '看旧脏索渴士诈')]), OrderedDict([('dislist', '那人束变领死草')]), OrderedDict([('dislist', '勺开动父金害子')]), OrderedDict([('dislist', '迈老信号书柜类')]), OrderedDict([('dislist', '住剪首泣遢手姓')]), OrderedDict([('dislist', '难扫围击下平铁')]), OrderedDict([('dislist', '小抹租店方草蒸')]), OrderedDict([('dislist', '四牛汽子英快乳')]), OrderedDict([('dislist', '咖栈常籍底长站')]), OrderedDict([('dislist', '貂具啤娃屋动堂')]), OrderedDict([('dislist', '挤海堂设裕马织')]), OrderedDict([('dislist', '嘴枪省子安浮微')]), OrderedDict([('dislist', '抽鲜思都盘车减')]), OrderedDict([('dislist', '部卉律鸡园衫诅')]), OrderedDict([('dislist', '饿篮刀九松师宽')]), OrderedDict([('dislist', '草导唱头雪讲平')]), OrderedDict([('dislist', '公坪宝蜂焰近狭')]), OrderedDict([('dislist', '人收分金帮钢烟')]), OrderedDict([('dislist', '小沙轿失洁牢细')]), OrderedDict([('dislist', '沉寻气滴王小他')]), OrderedDict([('dislist', '子投铜头手听肉')]), OrderedDict([('dislist', '珠母亏除猴助压')]), OrderedDict([('dislist', '数练员寒按丝云')]), OrderedDict([('dislist', '气排见名漏儿狮')]), OrderedDict([('dislist', '祷话颈视窗金包')]), OrderedDict([('dislist', '欺鼠价单昆支羊')]), OrderedDict([('dislist', '食夹鼻博肥醉食')]), OrderedDict([('dislist', '球带床一帚银恋')]), OrderedDict([('dislist', '胖烤板举悲藏复')]), OrderedDict([('dislist', '门觉衣外部色智')]), OrderedDict([('dislist', '律大小扫狗亡修')]), OrderedDict([('dislist', '针胶寻卖午假')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="distractorlist.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="dis1"/>
+    <LoopTerminator name="trials_3"/>
+    <Routine name="AskColor"/>
+    <Routine name="AskRelated"/>
+    <LoopTerminator name="trials_4"/>
+  </Flow>
+</PsychoPy2experiment>
