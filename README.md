@@ -10,10 +10,7 @@ This repository contains the Psychopy code for running the Luck 1996 attentional
 ## Installation
 1. Clone or download this repository to your computer.
 2. Open a command prompt or terminal and navigate to the repository directory.
-3. Run the following command to install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+
 
 ## Usage
 1. Open the `Luck1996AB.psyexp` file in Psychopy.
